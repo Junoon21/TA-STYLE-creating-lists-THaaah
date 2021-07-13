@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom  styles */
+/* general styles */
+.flex {
+	display: flex;
+	/* justify-content:space-between; */
+
+	align-items: center;
+}
+.flex1 {
+	display: flex;
+	justify-content:space-between;
+
+	/* align-items: center; */
+
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 34px;
+}
+body {
+	background-color: #D4CA9D;
+	line-height: 1.5;
+}
+.space {
+	padding: 0 120px;
+}
+ /* header */
+ .nav ul {
+	 list-style-type: none;
+ }
+ header {
+	 background-color:#F96115 ;
+ }
+ .nav {
+	 padding: 22px ;
+ }
+ .nav1 {
+	 margin-left: 76px;
+ }
+ .nav1 li {
+	 font-size: 18px;
+	 margin-right: 12px;
+	 
+ }
+ .nav1  a {
+	 text-decoration: none;
+	 color: #ffff;
+	 
+ }
+ /* main */
+ .box {
+	 width: 25%;
+	 background-color: #005979;
+	 padding:6px;
+	 box-shadow: 10px 10px 8px rgba(0,0,0, 0.8);
+	 /* margin-right:6px ; */
+	 margin-top: 54px;
+ }
+ .list-1 {
+	 list-style-type: decimal;
+	 list-style-position: inside;
+ }
+ .list-1-2 {
+	list-style-type: decimal;
+	list-style-position: outside;
+ }
+ .list-1 li {
+	 color: #D4CA9D;
+	 font-size: 18px;
+	 font-family: 'open sans';
+	 font-weight: 400;
+	 margin-bottom: 8px;
+ }
+ .list-2 li {
+	color: #D4CA9D;
+	font-size: 18px;
+	font-family: 'open sans';
+	font-weight: 400;
+	 margin-bottom: 8px;
+ }
+
+
+ .index  li {
+	list-style-type:square;
+	list-style-position: outside;
+
+}
+ .menu li {
+	 list-style-type: decimal;
+	 list-style-position: inside;
+
+ }
+  .sub-menu li {
+     list-style-type: square;
+	 list-style-position:inside;
+ }
+ .list-3 {
+	 color: #D4CA9D;
+	 font-size: 18px;
+	 font-family: 'open sans';
+	 font-weight: 400;
+	  /* margin: 8px; */
+ }
+ .list-3 ul {
+	 list-style-type: none;
+	 
+	 /* list-style-image: url(../media/tick-icon-small.png) cover; */
+	 }
+	 .list-3 i {
+		 margin-right: 6px;
+	 }
+	 .list-3 li {
+		 margin-bottom: 8px;
+	 }
+	 /* description text */
+	 .text dt {
+		 font-size: 26px;
+		 font-weight: 500;
+		 color:#252C22 ;
+		 font-family: 'roboto-mono',sans-serif;
+	 }
+	 .text dd {
+		 font-size: 19px;
+		 font-weight: 500;
+		 color: #252C22; ;
+		 line-height: 1.6;
+	 }
+	 p {
+		 margin: 6px 0;
+		 line-height: 1.5;
+	 }
+	 .text {
+		 margin-top: 78px;
+	 }
+	 /* footer */
+	 footer {
+		 background-color: #252C22;
+	 }
